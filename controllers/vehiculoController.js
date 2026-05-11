@@ -1,8 +1,5 @@
 let vehiculos = [];
 
-
-/* REGISTRAR */
-
 function registrarVehiculo(datos){
 
     let vehiculo;
@@ -83,9 +80,6 @@ function registrarVehiculo(datos){
 }
 
 
-
-/* GUARDAR LOCAL STORAGE */
-
 function guardarLocalStorage(){
 
     localStorage.setItem(
@@ -98,9 +92,6 @@ function guardarLocalStorage(){
 
 }
 
-
-
-/* OBTENER */
 
 function obtenerVehiculos(){
 
